@@ -7,7 +7,7 @@ function Book(props) {
 
     const thumbnail =
         book.imageLinks === undefined
-            ? 'https://dummyimage.com/128x193/333/ffffff&text=missing+image'
+            ? 'https://dummyimage.com/600x400/000/fff&text=Image+is+missing'
             : book.imageLinks.thumbnail;
 
     const authors = book.authors === undefined ? 'Unknown Author' : book.authors.join(', ');
